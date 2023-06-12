@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .banner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(./banner.jpg);
+    background-size: cover;
+    height: 150px;
+  }
+  .nav-bar li {
+    border: none;
+  }
+  .nav-bar ul {
+    flex-direction: column;
+  }
+  /* Project */
+  .item-project-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .time-project-information {
+    display: inline-block;
+  }
+  .item-project {
+    display: flex;
+    flex-direction: column;
+  }
+}

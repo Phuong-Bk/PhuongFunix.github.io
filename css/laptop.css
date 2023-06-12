@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 80px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+/* banner */
+.banner {
+  position: relative;
+
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./banner.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.information-banner {
+  text-align: center;
+  position: absolute;
+  /*kính thước phần tử mẹ */
+  bottom: 50%;
+  left: 50%;
+  /* kích thước phân tử con */
+  transform: translate(-50%, 0%);
+  color: #f7f7f7;
+  line-height: 1.5;
+}
+/* nav-bar */
+.information,
+.item-icon,
+.certificate,
+.project {
+  padding: 0px 30px;
+}
+.nar-container {
+  display: inline-block;
+  /* height: 50px; */
+
+  text-transform: uppercase;
+
+  border: 1px solid rgb(211, 209, 209);
+}
+.nar-container a {
+  text-decoration: none;
+  color: black;
+}
+.nar-container i {
+  color: #199cdb;
+}
+/* Muc tieu & thong tin */
+.boxes {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+/* Job */
+.job-item {
+  border: 1px solid black;
+}
+.icon {
+  font-size: 38px;
+  text-align: center;
+}
+.icon-like {
+  width: 50px;
+  height: 50px;
+}
+.job {
+  margin-top: 10px;
+}
+.job .time-item {
+  padding: 0 5px 0 5px;
+  color: #f7f7f7;
+  background-color: #199cdb;
+  border-radius: 3px;
+}
+.job .work {
+  padding-bottom: 20px;
+}
+.job .work-item {
+  margin-left: 20px;
+  position: relative;
+}
+/*Job (column nn vs ky nang) */
+.ngon-ngu-item {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.ngon-ngu-item-gray {
+  background: #3f4041;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* Certificates & Awards */
+.Certificates-Awards p {
+  margin: 0;
+}
+.information-chung-chi {
+  padding-left: 30px;
+  line-height: 1.5;
+}
+.body-information {
+  position: relative;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d6c08d;
+}
+.body-information:last-child {
+  border-bottom: none;
+  margin-top: 50px;
+}
+
+.num-1::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120px;
+  margin-left: -20px;
+  background-color: #d6c08d;
+  top: 0;
+  z-index: 1;
+}
+/* Project 
+.time-project-information {
+  padding: 5px 10px;
+  background-color: #199cdb;
+  border-radius: 8px;
+}
+.item-project {
+  display: flex;
+  gap: 10px;
+}*/
+/* section du an */
+/* .project-information {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+} */
+/* .project-information img {
+  width: 100%;
+  height: 200px;
+} */
+.item-project {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border: 1px solid rgb(211, 209, 209);
+}
+.time-project-information {
+  padding: 10px 15px 10px 15px;
+  background-color: #199cdb;
+  border-radius: 20px;
+}
+.head-project-information {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.item-project-information,
+.head-project-information {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid rgb(211, 209, 209);
+}
+.project-information-job table {
+  border: 1px solid rgb(211, 209, 209);
+  border-collapse: collapse;
+}
+.project-information-job td {
+  padding: 10px;
+
+  border-bottom: 1px solid rgb(211, 209, 209);
+  text-align: start;
+}
+
+/* footer */
+.footer-item {
+  color: grey;
+
+  /* display: inline-block;
+  gap: 20px; */
+
+  font-size: 25px;
+}
+.footer-item i {
+  color: #199cdb;
+}
+/* .ft-center {
+  transform: translateX(30%);
+} */
